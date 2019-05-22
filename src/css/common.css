@@ -1,0 +1,60 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+.card1{
+    background:#A9A9A9 ;
+    width: 400px;
+    height: 260px;
+}
+.card1 ul{
+    list-style: none;
+    display: block;
+
+}
+.card1 ul li img.img1 {
+    width: 220px;
+
+}
+.card1 ul li img.img2 {
+    width: 190px;
+    margin-left: 16px;
+}
+
+.card2 {
+    width: 400px;
+    height: 260px;
+    background:#A9A9A9 ;
+    margin-left: 20px;
+
+
+}
+.card2 ul li img.img3{
+    width: 130px;
+    padding-left:15px;
+    padding-top: 40px;
+
+}
+
+.card2 ul li img.img4{
+    width: 240px;
+    margin-left:-65px;
+    padding-top: 40px;
+}
+.card2 ul{
+    display: block;
+    list-style: none;
+    vertical-align: middle;
+    white-space: nowrap;
+
+}
+.card2 ul li {
+    display: inline-block;
+    vertical-align: middle;
+    position:relative ;
+    z-index:1;
+}
+.card2 ul li:first-child{
+    z-index:2;
+}
