@@ -1,4 +1,5 @@
 import $ from "jquery";
+console.log('asdasdasd');
 /*
 const button_element = $('<button>').text('button');
 const code_text = 'klasdHFJBEGFKU';
